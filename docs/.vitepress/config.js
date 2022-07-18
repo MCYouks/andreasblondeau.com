@@ -1,8 +1,6 @@
-import { defineConfig } from "../../src/node";
-
 import { version } from "../../package.json";
 
-export default defineConfig({
+export default {
   lang: "en-US",
   title: "Home",
   description: "Vite & Vue powered static site generator.",
@@ -32,9 +30,9 @@ export default defineConfig({
     },
 
     algolia: {
-      appId: "8J64VVRP8K",
-      apiKey: "a18e2f4cc5665f6602c5631fd868adfd",
-      indexName: "vitepress",
+      appId: "KJYTKENGPN",
+      apiKey: "2a0d997b098d622ede8c21e598216550",
+      indexName: "andreasblondeau",
     },
 
     carbonAds: {
@@ -42,7 +40,7 @@ export default defineConfig({
       placement: "vuejsorg",
     },
   },
-});
+};
 
 function nav() {
   return [
