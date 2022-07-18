@@ -1,0 +1,16 @@
+{
+  "name": "andreasblondeau.com",
+  "version": "1.0.0",
+  "description": "My personal website built with Vitepress",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "author": "Andréas Blondeau",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.4"
+  }
+}
