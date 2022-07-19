@@ -1,4 +1,4 @@
-import { version } from "../../package.json";
+// import { version } from "../../package.json";
 
 export default {
   lang: "en-US",
@@ -22,11 +22,12 @@ export default {
 
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "linkedin", link: "https://www.linkedin.com/in/andreasblondeau" },
     ],
 
     footer: {
       message: "Released under the MIT License.",
-      copyright: "Copyright © 2019-present Evan You",
+      copyright: "Copyright © 2022-present Andréas Blondeau",
     },
 
     algolia: {
@@ -35,27 +36,27 @@ export default {
       indexName: "andreasblondeau",
     },
 
-    carbonAds: {
-      code: "CEBDT27Y",
-      placement: "vuejsorg",
-    },
+    // carbonAds: {
+    //   code: "CEBDT27Y",
+    //   placement: "vuejsorg",
+    // },
   },
 };
 
 function nav() {
   return [
-    { text: "Guide", link: "/guide/what-is-vitepress", activeMatch: "/guide/" },
-    { text: "Configs", link: "/config/introduction", activeMatch: "/config/" },
     {
-      text: version,
+      text: "Projects",
+      link: "/guide/what-is-vitepress",
+      activeMatch: "/guide/",
+    },
+    { text: "Blog", link: "/config/introduction", activeMatch: "/config/" },
+    {
+      text: "Contact",
       items: [
         {
-          text: "Changelog",
-          link: "https://github.com/vuejs/vitepress/blob/main/CHANGELOG.md",
-        },
-        {
-          text: "Contributing",
-          link: "https://github.com/vuejs/vitepress/blob/main/.github/contributing.md",
+          text: "Send me an email",
+          link: "mailto:andreas@luego.eu",
         },
       ],
     },
